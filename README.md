@@ -1,16 +1,65 @@
-# React + Vite
+# Student Marks Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive web application developed using React for calculating student marks, total marks, percentage, and overall result.
 
-Currently, two official plugins are available:
+## Student Details
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Name:** Misbah Shaikh  
+**PRN:** 12414009
 
-## React Compiler
+## Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The Student Marks Calculator allows users to enter student information and marks for multiple subjects. It calculates the final marks for each subject by combining internal and external marks and displays the student's total marks, percentage, and overall result.
 
-## Expanding the Oxlint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Responsive user interface
+- Student information form
+- Subject-wise marks entry
+- Internal marks out of 30
+- External marks out of 70
+- Automatic subject-wise total calculation
+- Automatic total marks calculation
+- Percentage calculation
+- Pass/Fail result
+- Input validation for marks
+- Subject-wise performance summary
+- Reset functionality
+- Desktop and mobile responsive design
+
+## Subjects
+
+The application includes the following subjects:
+
+1. Mathematics
+2. Java Programming
+3. Database Management
+4. Web Development
+5. Computer Networks
+
+## Technologies Used
+
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+
+## Calculation
+
+For each subject:
+
+**Final Subject Marks = Internal Marks + External Marks**
+
+**Total Marks = Sum of all Subject Marks**
+
+**Percentage = (Total Marks / Maximum Marks) × 100**
+
+A student passes when the final marks in every subject are at least 40.
+
+## Installation and Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/student-marks-calculator.git
